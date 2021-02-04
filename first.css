@@ -1,0 +1,48 @@
+.flex-box-container-1, .flex-box-container-2, .flex-box-container-3,.flex-box-container-4,.flex-blackjack-row-1{
+    border: 2px solid black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.flex-box-container-1 div{
+	padding:10px;
+	border: 1px solid black;
+}
+.container-1, .container-2, .container-3, .container-4,.container-5{
+	border: 1px solid black;
+	width:75%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.container-2 h2{
+	border:1px solid black;
+}
+.flex-box-container-2 img{
+	padding: 20px;
+	box-shadow: 10px 10px 8px 5px grey;
+	margin-bottom: 15px
+}
+.flex-box-container-2, .flex-box-container-3,.flex-box-container-4, .flex-blackjack-row-1{
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.flex-box-container-3 img{
+	height: 200px;
+	width: 200px;
+}
+.flex-box-container-3 img:hover{
+	box-shadow: 10px 10px 8px 5px  blue;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+	background-image: url("./download.jpeg");
+	color: #ffffff;
+}
+.flex-blackjack-row-1 div{
+	border:1px solid black;
+	height: 350px;
+	flex: 1;
+}
+
+
+
