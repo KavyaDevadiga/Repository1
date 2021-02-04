@@ -13,7 +13,7 @@ function reset() {
 function generateCat(){
 	var image= document.createElement('img');
 	var div= document.getElementById('cat');
-	image.src="E:/jquery-pract/tenor.gif";
+	image.src="tenor.gif";
 	div.appendChild(image);
 }
 function rpsGame(yourChoice){
